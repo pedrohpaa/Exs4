@@ -13,7 +13,7 @@ st.header("Exercícios")
 
 st.write("Projetos Ex 1")
 
-arquivo = "https://github.com/pedrohpaa/Exe4/blob/main/projetos-1.csv" 
+arquivo = "https://raw.githubusercontent.com/pedrohpaa/Exe4/main/projetos-1.csv" 
 df = pd.read_csv(arquivo, sep=';') 
 st.dataframe(df.head(23))
 
