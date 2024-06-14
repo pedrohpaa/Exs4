@@ -14,7 +14,7 @@ st.header("Exercícios")
 st.write("Projetos Ex 1")
 
 arquivo = "https://github.com/pedrohpaa/Exe4/blob/main/projetos-1.csv" 
-df = pd.read_csv(arquivo, sep=';') 
+df = pd.read_csv(https://github.com/pedrohpaa/Exe4/blob/main/projetos-1.csv, sep=';') 
 st.dataframe(df.head(23))
 
 st.write("Projetos Ex 2")
