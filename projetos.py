@@ -41,4 +41,10 @@ df["Projeto1"].plot(kind = 'hist')
 df["Projeto4"].plot(kind = 'hist')
 st.pyplot(fig)
 
+st.write("IPEADATA Ex 1")
 
+ip.list_series('Selic')
+
+st.write("IPEADATA Ex 2")
+
+st.write("IPEADATA Ex 3")
