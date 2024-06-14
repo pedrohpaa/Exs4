@@ -43,7 +43,7 @@ st.pyplot(fig)
 
 st.write("IPEADATA Ex 1")
 
-ip.list_series('Selic')
+ip.list_series('Selic2022-2023.csv')
 
 st.write("IPEADATA Ex 2")
 
