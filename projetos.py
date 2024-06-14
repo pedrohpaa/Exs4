@@ -6,7 +6,7 @@ import streamlit as st
 st.set_page_config(
 
 page_title="ListaEx4",
-page_icon="👺, 👽", 
+page_icon="👺", 
 )
 
 st.header("Exercícios")
