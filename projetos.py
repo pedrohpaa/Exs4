@@ -43,7 +43,9 @@ st.pyplot(fig)
 
 st.write("IPEADATA Ex 1")
 
-ip.list_series('https://raw.githubusercontent.com/pedrohpaa/Exs4/main/Selic2022-2023.csv')
+arq = "https://raw.githubusercontent.com/pedrohpaa/Exs4/main/Selic2022-2023.csv"
+
+ip.list_series(arq)
 
 st.write("IPEADATA Ex 2")
 
