@@ -36,7 +36,9 @@ st.pyplot(fig)
 
 st.write("Projetos Ex 5")
 
-
+fig, ax = plt.subplots()
 df["Projeto1"].plot(kind = 'hist')
 df["Projeto4"].plot(kind = 'hist')
 plt.show()
+
+
