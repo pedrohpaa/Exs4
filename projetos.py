@@ -1,6 +1,7 @@
 import pandas as pd  
 import matplotlib.pyplot as plt
 import streamlit as st
+import ipeadatapy as ip
 
 st.set_page_config(
 
@@ -42,9 +43,8 @@ st.pyplot(fig)
 
 st.write("IPEADATA Ex 1")
 
-import ipeadatapy as ip
-
-ip.metadata(name="Taxa de juros - Over / Selic - acumulada no mês")
+selic = ip.metadata(name="Taxa de juros - Over / Selic - acumulada no mês")
+selic
 
 st.write("IPEADATA Ex 2")
 
