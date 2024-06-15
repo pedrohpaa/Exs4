@@ -43,9 +43,7 @@ st.pyplot(fig)
 
 st.write("IPEADATA Ex 1")
 
-arq = "https://raw.githubusercontent.com/pedrohpaa/Exs4/main/Selic2022-2023.csv"
-
-ip.list_series(arq)
+ip.metadata(name="Taxa de juros - Over / Selic - acumulada no mês")
 
 st.write("IPEADATA Ex 2")
 
