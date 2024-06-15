@@ -48,4 +48,12 @@ selic
 
 st.write("IPEADATA Ex 2")
 
+selic2 = ip.timeseries('BM12_TJOVER12', yearGreaterThan=2021, yearSmallerThan=2024)
+selic2
+
 st.write("IPEADATA Ex 3")
+
+fig, ax = plt.subplots()
+ip.timeseries('BM12_TJOVER12', year=2021).plot("MONTH", "VALUE ((% a.m.))")
+ip.timeseries('BM12_TJOVER12', year=2022).plot("MONTH", "VALUE ((% a.m.))")
+st.pyplot(fig)
